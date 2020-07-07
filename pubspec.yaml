@@ -1,0 +1,33 @@
+name: travel_ui
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+   - family: Nunito
+     fonts:
+       - asset: assets/fonts/Nunito-Regular.ttf
+       - asset: assets/fonts/Nunito-Light.ttf
+   - family: Gilroy
+     fonts:
+       - asset: assets/fonts/Gilroy-ExtraBold.ttf
+       - asset: assets/fonts/Gilroy-Light.ttf
+  assets:
+    - assets/images/menu.png
